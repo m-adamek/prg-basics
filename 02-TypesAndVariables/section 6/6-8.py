@@ -5,8 +5,8 @@
 # B and M (10 letters)
 # K and K (0 letters)
 
-first = input('Enter the first letter: ')
-last = input('Enter the last letter: ')
+first = str(input('Enter the first letter: '))
+last = str(input('Enter the last letter: '))
 first_letter_code = ord(first)
 last_letter_code = ord(last)
 number_of_letters = last_letter_code - first_letter_code - 1
