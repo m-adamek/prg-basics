@@ -15,11 +15,11 @@ file_name = 'it_company.csv'
 job_title = 'Software Engineer'
 
 with open(file_name, "r") as file:
-   file_lines = file.splitlines()
+   content = file.read()
+   file_lines = content.splitlines()
    number = 1
   
    for line in file_lines:
       if job_title in line:
+        print(f"{number}. {line}")
         number+=1
-        numbered = str(number) + "."
-        print(numbered,line)

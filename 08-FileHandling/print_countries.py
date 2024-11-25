@@ -13,5 +13,5 @@ with open('countries.txt', 'r') as file:
     number = 1
     for line in file:
         snumber = str(number) + "."
-        print(snumber, line, end="")
+        print(snumber, line, end="" )
         number = number +1 
