@@ -13,16 +13,24 @@ import queue
 # expression3 = "(2-3*4+(5/6)"              # brackets not correct
 
 def brackets_ok(expression):
-   ...
-   ...
-   ...
-   return #True if brackets in expression are ok of False otherwise
+   stack = 
+
+   return #True if brackets in expression are ok or False otherwise
+
+
+
 
 if brackets_ok(expression1):
-   print(...)
-else
-   ...
+   print(f"The brackets in {expression1} are correct.")
+else:
+   print(f"The brackets in {expression1} are not correct.")
 
 if brackets_ok(expression2):
-...
-...
+   print(f"The brackets in {expression2} are correct.")
+else:
+   print(f"The brackets in {expression2} are not correct.")
+
+if brackets_ok(expression3):
+   print(f"The brackets in {expression3} are correct.")
+else:
+   print(f"The brackets in {expression3} are not correct.")

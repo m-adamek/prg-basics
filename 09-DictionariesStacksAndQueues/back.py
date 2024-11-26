@@ -1,3 +1,7 @@
+# A back.py program simulates the Back key in a web browser
+# (recording the name of new website or displaying the previously visited web site).
+# Complete the program.
+
 import queue
 
 # create a visited_websites
@@ -16,10 +20,10 @@ while True:
          break
       else:
          print('<-- Going back to a previously visited website')
-         website = ...
-   elif ... != "":
-      ...
+         website = visited_websites.get()
+   elif website != "":
+      visited_websites.put(website)
 
    # print name of website you are currently viewing
    print('You are currently viewing:', website)
-   print()
+

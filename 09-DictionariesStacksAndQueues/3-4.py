@@ -14,3 +14,4 @@
 # 1 / 2 = 0	1
 # Natural number: 18
 # Binary number: 10010 
+
