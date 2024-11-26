@@ -1,3 +1,15 @@
+# Modify a program in which perform the following operations:
+
+# Put 2 on the stack
+# Put 3 on the stack
+# Put 7 on the stack
+# Put 4 on the stack
+# Put 1 on the stack
+# Put 9 on the stack
+# Put 8 on the stack
+# Sum the last two numbers of the stack and print result
+# Calculate the sum of the remaining stack elements and print the result. Use a 'while' loop.
+
 import queue
 
 """
